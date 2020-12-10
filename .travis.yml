@@ -76,5 +76,4 @@ jobs:
       deploy:
         provider: heroku
         api_key: '$HEROKU_AUTH_TOKEN'
-        app:
-          master: benhalpern-community
+        app: benhalpern-community
